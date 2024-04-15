@@ -188,6 +188,7 @@ export default function Login() {
                           {demoUsers.map((user, index) => (
                             <tr
                               key={index}
+                              
                               className="dark:border-dark cursor-pointer border"
                             >
                               <td className="px-2 py-2 md:px-4">
